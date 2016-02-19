@@ -16,7 +16,7 @@ $(document).ready(function() {
 	
 	setTimeout(function(){
 		$('body').addClass('loaded');
-		$('h1').css('color','pink');
+		$('h1').css('color','#2d2d2d');
 	}, 3000);
 	
 });
