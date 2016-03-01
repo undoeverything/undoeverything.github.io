@@ -130,7 +130,7 @@ path#middle {
   	left: 0;
   	height: 100%;
   	width: 100%;
-  	background-color: rgba(2, 2, 2, 0.83);
+  	background-color: rgba(86, 86, 86, 1);
   	visibility: hidden;
   	-webkit-transition: visibility 0s 0.7s;
   	-moz-transition: visibility 0s 0.7s;
