@@ -4,18 +4,6 @@ Primary Style
 
 */
 
-h1, h2 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-  color: black;
-  line-height: 58px;
-}
-
-p {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-  color: black;
-}
 
 body {
 	font-size: 1.6em;
@@ -28,6 +16,12 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+	
 }
 
 ul {
