@@ -32,13 +32,15 @@ header a{
   letter-spacing:2px; 
   font-weight:700;
 }
-#hero1{
- background:url(http://www.travelerscode.net/images/bridge.jpg);
-  background-size:cover;
+
+
+
+#hero1{background: url(http://www.travelerscode.net/images/header2/IMG_4960.png);
+  background-size: cover;
   background-position:center center;
   background-attachment:fixed;
 }
-#hero2{background: url(http://www.travelerscode.net/images/header2/IMG_4955.png);
+#hero2{background: url(http://www.travelerscode.net/images/bridge.jpg);
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
