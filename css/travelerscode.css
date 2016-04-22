@@ -38,7 +38,7 @@ header a{
   background-position:center center;
   background-attachment:fixed;
 }
-#hero2{background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21555/Melissani-cave-natural.jpg);
+#hero2{background: url(http://www.travelerscode.net/images/header2/IMG_4955.png);
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
@@ -109,6 +109,8 @@ ul:after .symbols {
 li h3 {
   margin: 0;
   font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   color: rgba(255, 255, 255, 0.9);
   background-color: deepskyblue;
   padding-left: 10px;
