@@ -25,6 +25,13 @@ ul {
 	padding-left: 0;
 }
 
+
+.softlinks {
+	position: fixed;
+	top: 5;
+	right: -35%;
+	z-index: 1;
+}
 /*
 
 div.main Stuff
@@ -47,11 +54,27 @@ div.main Stuff
 	color: white;
 	font-size: 150px;
 	font-family: 'lato';
-	padding-top: 40%;
+	padding-top: 30%;
+	padding-bottom: 20%;
 	letter-spacing: 5px;
 }
 
+.socialmedia {
+	font-size: 25px;
+	font-family: 'lato';
+	float: left;
+	width: 45%;
+	padding-top: 5%;
+	padding-left: 10%;
+	
+}
 
+.instagram {
+	float: right;
+	padding-top: 5%;
+	padding-right: 10%;
+	width:45%;
+}
 
 
 

@@ -44,13 +44,20 @@ header a{
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
-  
-#hero3{background: url(http://www.travelerscode.net/images/social_media.png);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-
 }
+
+#hero3{background: url(http://www.travelerscode.net/images/bridge.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  }
+
+#hero4{background: url(http://www.travelerscode.net/images/social_media.png);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  }
+
 .hero, .content{
   text-align:center; 
   position:relative;
