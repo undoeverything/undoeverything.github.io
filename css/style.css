@@ -43,6 +43,14 @@ div.main Stuff
 	text-decoration: line-through;
 }
 
+.sectiontitle {
+	color: white;
+	font-size: 150px;
+	font-family: 'lato';
+	padding-top: 40%;
+	letter-spacing: 5px;
+}
+
 
 
 
