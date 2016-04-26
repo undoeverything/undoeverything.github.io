@@ -35,7 +35,7 @@ header a{
 
 
 
-#hero1{background: url(http://www.travelerscode.net/images/header2/IMG_4960.png);
+#hero1{background: url(http://www.travelerscode.net/images/road-trip-dpc.jpg);
   background-size: cover;
   background-position:center center;
   background-attachment:fixed;
@@ -110,9 +110,9 @@ ul:after .symbols {
 
 li h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
   background-color: deepskyblue;
   padding-left: 10px;

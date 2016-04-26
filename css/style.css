@@ -36,9 +36,12 @@ div.main Stuff
 	padding-right: 12%;
 }
 
-
-
-
+.codestyle {
+	color: white;
+	font-size: 50px;
+	font-family: 'lato';
+	text-decoration: line-through;
+}
 
 
 
@@ -120,7 +123,7 @@ path#middle {
   	left: 0;
   	height: 100%;
   	width: 100%;
-  	background-color: rgba(86, 86, 86, 1);
+  	background-color: rgba(0, 0, 0, 1);
   	visibility: hidden;
   	-webkit-transition: visibility 0s 0.7s;
   	-moz-transition: visibility 0s 0.7s;
@@ -182,9 +185,9 @@ path#middle {
 .navi > h2 {
   	position: relative;
   	margin-bottom: 1.7em;
-  	font-size: 1.3rem;
-  	font-weight: 800;
-  	color: #2C3E50;
+  	font-size: 25px;
+  	
+  	color:#ffffff;
   	text-transform: uppercase;
 }
 
@@ -196,7 +199,7 @@ path#middle {
   	bottom: -20px;
   	height: 1px;
   	width: 60px;
-  	background-color: #2C3E50;
+  	background-color: #ffffff;
 }
 
 .navi .primary-navi {
@@ -264,7 +267,7 @@ Media Queries Mobile Devices
 @media only screen and (min-width: 1170px) {
 	
 	.navi .navigation-wrapper {
-    	padding: 62px 20%;
+    	padding: 62px 5%;
   	}
   	
   	.navi .navigation-wrapper::after {
