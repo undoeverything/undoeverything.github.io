@@ -6,17 +6,17 @@ Primary Style
 
 
 body {
-	font-size: 1.6em;
 	background-color: white;
 	/* Prevent horizontal Scrolling */
 	height: 100vh;
 	margin: 0;
-  margin-top: 0;
-}
+	margin-top: 0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	line-height: 175%;
+	}
 
-a {
-	text-decoration: none;
-}
 
 
 
@@ -28,8 +28,8 @@ ul {
 
 .softlinks {
 	position: fixed;
-	top: 5;
-	right: -35%;
+	left: 20px;
+	top: 85px;
 	z-index: 1;
 }
 /*
@@ -46,37 +46,47 @@ div.main Stuff
 .codestyle {
 	color: white;
 	font-size: 50px;
-	font-family: 'lato';
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: line-through;
 }
 
 .sectiontitle {
 	color: white;
 	font-size: 150px;
-	font-family: 'lato';
+	font-family: 'Open Sans', sans-serif;
 	padding-top: 30%;
 	padding-bottom: 20%;
 	letter-spacing: 5px;
+	text-align: center;
+	font-weight: 900;
 }
 
-.socialmedia {
-	font-size: 25px;
-	font-family: 'lato';
+
+.imagesleft {
 	float: left;
-	width: 45%;
 	padding-top: 5%;
 	padding-left: 10%;
-	
+}
+
+.imagesright {
+	float: right;
+	padding-top: 5%;
+	padding-right: 10%;
 }
 
 .instagram {
 	float: right;
-	padding-top: 5%;
+	padding-top: 6%;
 	padding-right: 10%;
 	width:45%;
 }
 
-
+.smwordsleft {
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+	width: 50%;
+}
 
 path {
   fill: none;
@@ -242,7 +252,7 @@ path#middle {
 }
 
 .navi .primary-navi a {
-  	font-family: 'Raleway', sans-serif;
+  	font-family: 'Open Sans', sans-serif;
   	font-size: 2.4rem;
   	color: #D7DADB;
   	display: inline-block;
@@ -328,4 +338,6 @@ Media Queries Mobile Devices
   	.navi .primary-navi a {
     	font-size: 2.4rem;
   	}
+  	
+
 }
