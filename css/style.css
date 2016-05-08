@@ -37,12 +37,7 @@ ul {
 }
 
 
-.softlinks {
-	position: fixed;
-	left: 20px;
-	top: 85px;
-	z-index: 1;
-}
+
 /*
 
 div.main Stuff
@@ -164,7 +159,7 @@ path#middle {
   	position: fixed;
   	z-index: 3;
     top: 2%;
-    left: 2%;
+    right: 2%;
 }
 
 
