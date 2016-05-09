@@ -356,5 +356,48 @@ ul {
 	
 
 	
-		
+/* CSS only gallery (using radio inputs)
+ * See http://css-tricks.com/forums/topic/click-thumbnail-and-make-it-larger-image-image-gallery-wo-javascript/
+ * Support needed for IE7 & older - see http://css-tricks.com/child-and-sibling-selectors/
+ */
+.wrapper {
+	width: 700px;
+	position: relative;
+}
+.wrapper .thumbnails {
+	width: 150px;
+	float: right;
+}
+.wrapper a {
+	margin: 2px;
+}
+.wrapper img {
+	border: 1px solid #000;
+}
+.wrapper label > img {
+	opacity: 0.6;
+}
+.wrapper label > img:hover {
+	opacity: 1;
+}
+.wrapper input {
+	display: none;
+}
+.wrapper input:checked + .full-image {
+	display: block;
+}
+.wrapper input:checked ~ img {
+	opacity: 1;
+}
+.wrapper .full-image {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wrapper .description {
+	width:95%;
+	padding:5px;
+	background-color:#DDDDDD;
+}	
 	
