@@ -115,7 +115,14 @@ div.main Stuff
 	padding-right: 10%;
 }
 
+.extext img {
+	padding: 30px;
+}
 
+.extext img:hover {
+	background: #00bfff;
+	
+}
 
 
 
